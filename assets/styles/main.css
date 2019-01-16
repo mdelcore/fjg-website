@@ -2029,7 +2029,7 @@ fieldset[disabled] .form-control:hover {
 
 /* ---- 4.5 Header/Page Title Parallax ---- */
 .pt-plax-md-dark {
-  background: url(http://placehold.it/2440x1280);
+  /*background: url(http://placehold.it/2440x1280);*/
   background-size: cover;
   background-position: 50%;
 }
@@ -2045,7 +2045,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-plax-md-light {
-  background: url(http://placehold.it/2440x1280);
+  /*background: url(http://placehold.it/2440x1280);*/
   background-size: cover;
 }
 
@@ -2060,7 +2060,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-plax-lg-dark {
-  background: url(http://placehold.it/2440x1280);
+  /*background: url(http://placehold.it/2440x1280);*/
   background-size: cover;
 }
 
@@ -2075,7 +2075,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .pt-plax-lg-light {
-  background: url(http://placehold.it/2440x1280);
+  /*background: url(http://placehold.it/2440x1280);*/
   background-size: cover;
 }
 
@@ -3947,7 +3947,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-hover-item .ft-1, .ft-hover-item .ft-2 {
-  background: #ccc url(http://placehold.it/900x580);
+  background: #ccc /*url(http://placehold.it/900x580);*/
   background-size: 100%;
   background-position: 50%;
   -webkit-transition: background-size 0.3s;
@@ -3967,7 +3967,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-hover-item .ft-2 {
-  background: #ccc url(http://placehold.it/900x580/999/eee);
+  background: #ccc /*url(http://placehold.it/900x580/999/eee*/);
   background-size: 100%;
   background-position: 50%;
 }
@@ -4198,7 +4198,7 @@ fieldset[disabled] .form-control:hover {
 /* ---- 10.1 Circle Counters ---- */
 .circles-counters, .circles-counters-dark-bg {
   position: relative;
-  background: #ccc url(http://placehold.it/2440x1578);
+  background: #ccc /*url(http://placehold.it/2440x1578)*/;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4245,7 +4245,7 @@ fieldset[disabled] .form-control:hover {
 /* ---- 10.2 Counters - Numbers ---- */
 .number-counters, .number-counters-dark-bg {
   position: relative;
-  background: #ccc url(http://placehold.it/2102x1578);
+  background: #ccc /*url(http://placehold.it/2102x1578)*/;
   background-size: cover;
   background-position: 50%;
   background-attachment: fixed;
