@@ -268,7 +268,7 @@
 			i {
 				transform: rotateY(180deg);
 				border: 1px solid rgba(204,204,204, 1);
-				background: #f00;
+				background: #ff0000;
 				color: $dark;
 			}
 		}
@@ -278,7 +278,7 @@
 			display: inline-block;
 			color: $lighter;
 			border: 1px solid rgba(17,17,17, 0);
-			background: $dark;
+			background: #ff0000;
 			border-radius: 100px;
 			transition: all .3s;
 		}
