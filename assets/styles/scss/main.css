@@ -4205,7 +4205,7 @@ fieldset[disabled] .form-control:hover {
           transform: rotateY(180deg);
   border: 1px solid #cccccc;
   background: #ff0000;
-  color: #ff0000;
+  color: #111;
 }
 
 .ft-centered .ft-dark-spin span, .ft-x .ft-dark-spin span, .ft-y .ft-dark-spin span,
@@ -4228,7 +4228,7 @@ fieldset[disabled] .form-control:hover {
 .ft-centered .ft-square-frame-dark:hover i,
 .ft-x .ft-square-frame-dark:hover i,
 .ft-y .ft-square-frame-dark:hover i {
-  border-color: #fd0404;
+  border-color: #111111;
 }
 
 .ft-centered .ft-circle-frame-dark span, .ft-x .ft-circle-frame-dark span, .ft-y .ft-circle-frame-dark span, .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span,
@@ -4239,10 +4239,10 @@ fieldset[disabled] .form-control:hover {
 .ft-x .ft-square-frame-dark i,
 .ft-y .ft-square-frame-dark i {
   color: #f8f8f8;
-  background: #ff0000;
+  background: #111;
   border: 5px solid white;
-  -webkit-box-shadow: 0 0 0 1px #f00;
-          box-shadow: 0 0 0 1px #f00;
+  -webkit-box-shadow: 0 0 0 1px #111;
+          box-shadow: 0 0 0 1px #111;
 }
 
 .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span,
@@ -4277,7 +4277,7 @@ fieldset[disabled] .form-control:hover {
 .ft-centered .ft-small-card:hover i,
 .ft-x .ft-small-card:hover i,
 .ft-y .ft-small-card:hover i {
-  color: #ff0000;
+  color: #111;
 }
 
 .ft-centered .ft-small-card span, .ft-x .ft-small-card span, .ft-y .ft-small-card span,
@@ -4314,7 +4314,7 @@ fieldset[disabled] .form-control:hover {
 .ft-x .ft-square-overlay i,
 .ft-y .ft-square-overlay i {
   display: inline-block;
-  color: #ff0000;
+  color: #111;
   border-radius: 100px;
   background: #ececec;
   border: 10px solid #f4f4f4;
@@ -4366,7 +4366,7 @@ fieldset[disabled] .form-control:hover {
 .ft-x .ft-material span, .ft-y .ft-material span,
 .ft-x .ft-material i,
 .ft-y .ft-material i {
-  color: #ff0000;
+  color: #111;
 }
 
 .ft-x .ft-circle-frame span, .ft-y .ft-circle-frame span, .ft-x .ft-square-frame span, .ft-y .ft-square-frame span, .ft-x .ft-circle-frame-dark span, .ft-y .ft-circle-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span,
@@ -4967,7 +4967,7 @@ fieldset[disabled] .form-control:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(17, 17, 17, 0.55);
+  background-image: url("/assets/images/branding-1.jpg");
   -webkit-transition: background .4s;
   transition: background .4s;
 }
