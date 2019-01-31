@@ -242,6 +242,16 @@ hr {
   background: #111;
 }
 
+.ft-dark-spin .ft-centered {
+  background: #f00;
+}
+
+.circles-counters {
+	position: relative;
+	background: #f00;
+	background-size: cover;
+	background-attachment: fixed;
+
 .dark-bg h1,
 .dark-bg .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
 .comingsoon .content-wrapper .content-inner .cs-timer .item .dark-bg .nbr-timer, .dark-bg h2,
@@ -274,7 +284,7 @@ hr {
 }
 
 .dark-bg .subheading {
-  color: #777 !important;
+  color: #f00!important;
   font-weight: 400;
 }
 
@@ -3380,14 +3390,14 @@ fieldset[disabled] .form-control:hover {
 .ft-centered .ft-circle-frame-dark:hover span,
 .ft-x .ft-circle-frame-dark:hover span,
 .ft-y .ft-circle-frame-dark:hover span, .ft-centered .ft-square-frame-dark:hover span, .ft-x .ft-square-frame-dark:hover span, .ft-y .ft-square-frame-dark:hover span, .ft-centered .ft-circle-frame-dark:hover i, .ft-x .ft-circle-frame-dark:hover i, .ft-y .ft-circle-frame-dark:hover i, .ft-centered .ft-square-frame-dark:hover i, .ft-x .ft-square-frame-dark:hover i, .ft-y .ft-square-frame-dark:hover i {
-  border-color: #111111;
+  border-color: #f00;
 }
 
 .ft-centered .ft-circle-frame-dark span,
 .ft-x .ft-circle-frame-dark span,
 .ft-y .ft-circle-frame-dark span, .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span, .ft-centered .ft-circle-frame-dark i, .ft-x .ft-circle-frame-dark i, .ft-y .ft-circle-frame-dark i, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
   color: #f8f8f8;
-  background: #111;
+  background: #f00;
   border: 5px solid white;
   box-shadow: 0 0 0 1px #111;
 }
@@ -3421,7 +3431,7 @@ fieldset[disabled] .form-control:hover {
 .ft-centered .ft-small-card:hover span,
 .ft-x .ft-small-card:hover span,
 .ft-y .ft-small-card:hover span, .ft-centered .ft-small-card:hover i, .ft-x .ft-small-card:hover i, .ft-y .ft-small-card:hover i {
-  color: #111;
+  color: #f00;
 }
 
 .ft-centered .ft-small-card span,
@@ -3561,6 +3571,34 @@ fieldset[disabled] .form-control:hover {
 }
 
 /* ---- 9.7 Feature - Boxed Hover List ---- */
+.ft-1 {
+  background: #ccc url("/assets/images/branding-1.jpg");
+  background-size: 100%;
+  background-position: 50%;
+  transition: background-size .3s;
+
+  .bg-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17,17,17, .55);
+    transition: background .4s;
+  }
+}
+
+.ft-2 {
+  @extend .ft-1;
+  background: #ccc url("/assets/images/marketing-1.jpg");
+  background-size: 100%;
+  background-position: 50%;
+
+  .bg-overlay {
+    background: rgba(17,17,17, .4);
+  }
+}
 .ft-boxed-hover ul {
   margin: 0;
   padding: 0;
