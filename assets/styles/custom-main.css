@@ -1,0 +1,95 @@
+/* ---- 10.1 Circle Counters ---- */
+.circles-counters {
+	position: relative;
+	background: #f00;
+	background-size: cover;
+	background-attachment: fixed;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #f00;
+	}
+
+	.circle-item {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+		
+		.chart {
+			position: relative;
+
+			.circle-icon {
+				display: block;
+				position: absolute;
+				top: 43px;
+				left: 0;
+				right: 0;
+				margin: auto;
+
+				font-size: 64px;
+				color: $light;
+			}
+		}
+
+		.circle-text {
+			@extend h6;
+			color: $light;
+		}
+	}
+} // .circles-counters-2
+
+.circles-counters-dark-bg {
+	@extend .circles-counters;
+	background: #f00;
+}
+
+
+
+.ft-centered .ft-dark-spin span, .ft-x .ft-dark-spin span, .ft-y .ft-dark-spin span, .ft-centered .ft-dark-spin i, .ft-x .ft-dark-spin i, .ft-y .ft-dark-spin i {
+    display: inline-block;
+    color: #f8f8f8;
+    border: 1px solid rgba(17, 17, 17, 0);
+    background: #f00;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+
+.ft-1 {
+    background: #ccc url("/assets/images/branding-1.jpg");
+    background-size: 100%;
+    background-position: 50%;
+    transition: background-size .3s;
+
+    .bg-overlay {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(17,17,17, .55);
+        transition: background .4s;
+    }
+}
+
+
+
+.ft-2 {
+    @extend .ft-1;
+    background: #ccc url("/assets/images/marketing-1.jpg");
+    background-size: 100%;
+    background-position: 50%;
+
+    .bg-overlay {
+        background: rgba(17,17,17, .4);
+    }
+}
