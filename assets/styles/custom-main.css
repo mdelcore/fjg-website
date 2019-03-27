@@ -85,7 +85,7 @@
 
 .ft-2 {
     @extend .ft-1;
-    background: #ccc url("/assets/images/marketing-1.jpg");
+    background: #ccc url("/assets/images/new-marketing-1.jpg");
     background-size: 100%;
     background-position: 50%;
 
