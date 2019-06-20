@@ -54,7 +54,7 @@
     display: inline-block;
     color: #f8f8f8;
     border: 1px solid rgba(17, 17, 17, 0);
-    background: #f00;
+    background: #ce0e2d;
     border-radius: 100px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -104,11 +104,11 @@
 
 
 .btn {
-	background: #ef220e;
+	color: #ce0e2d;
 }
 
 .form-group label {
-	color: #ef220e;
+	color: #ce0e2d;
 }
 
 .sec-heading .subheading {
@@ -138,7 +138,7 @@
 	position: relative;
 	display: inline-block;
 	padding: 8px 38px;
-	background: #111;
+	background: #ce0e2d;
 	color: #ececec;
 	font-family: "Century Gothic", "AppleGothic", "URW Gothic L", "Avant Garde",Futura,sans-serif;
 	text-transform: uppercase;
