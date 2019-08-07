@@ -554,6 +554,14 @@
 			  $(this).parent().addClass('active');
 		});
 
+		// Filters
+		$('.team-filters a').click(function (e) {
+			e.preventDefault();
+
+			$('li').removeClass('active');
+			$(this).parent().addClass('active');
+	  });
+
 		
 		// Full Width Gallery (3 columns)
 		function pfolio3colFW () {
@@ -565,10 +573,23 @@
 				itemSelector: '.portfolio-item',
 			});
 
+			var $containerT = $('#tfolio');
+			// init
+			$containerT.isotope({
+				// options
+				itemSelector: '.team-item',
+			});
+
 			// Filter items
 			$('#pfolio-filters').on( 'click', 'a', function() {
 				var filterValue = $(this).attr('data-filter');
 				$container.isotope({ filter: filterValue });
+			});
+
+			// Filter items
+			$('#tfolio-filters').on( 'click', 'a', function() {
+				var filterValue = $(this).attr('data-filter');
+				$containerT.isotope({ filter: filterValue });
 			});
 
 		} // fwNogap3col
@@ -588,10 +609,28 @@
 			    }				
 			});
 
+			var $containerT = $('.tfolio-items');
+			// init
+			$containerT.isotope({
+				// options
+				itemSelector: '.t-item',
+			    percentPosition: true,
+			    layoutMode: 'packery',
+			    masonry: {
+			      columnWidth: '.grid-sizer'
+			    }				
+			});
+
 			// Filter items
 			$('#pfolio-filters').on( 'click', 'a', function() {
 				var filterValue = $(this).attr('data-filter');
 				$container.isotope({ filter: filterValue });
+			});
+
+			// Filter items
+			$('#tfolio-filters').on( 'click', 'a', function() {
+				var filterValue = $(this).attr('data-filter');
+				$containerT.isotope({ filter: filterValue });
 			});
 
 		}
